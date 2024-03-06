@@ -1,0 +1,40 @@
+.story{
+    .img-story{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+        .content-first{
+            position: absolute;
+            width: 365px;
+            left:calc(50% + 100px);
+            top: calc(10% - 80px)
+        }
+        .content-second{
+            position: absolute;
+            width: 365px;
+            left:calc(50% - 230px);
+            top: calc(20% + 104px);
+        }
+        .content-third{
+            position: absolute;
+            width: 365px;
+            right: calc(50% - 266px);
+            top: calc(38% + 170px);
+        }
+        .content-fourth{
+            position: absolute;
+            width: 466px;
+        right: calc(47% - 266px);
+        top: calc(53% + 102px);
+    
+        }
+        .content-fifth{
+            position: absolute;
+            width: 600px;
+        right: calc(36% - 266px);
+        top: calc(69% + 101px);
+    
+        }
+    }
+}

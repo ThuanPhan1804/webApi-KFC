@@ -1,0 +1,85 @@
+.card-pay{
+    padding: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+
+    hr{
+        margin-top: 1.28571429rem;
+        margin-bottom: 1.28571429rem;
+        // border: 0;
+        height: 2px;
+        background-color: rgba(0,0,0,.1);
+    }
+    .promotion{
+        margin-bottom: 40px;
+        .div-input-promotion{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            .input-promotion{
+                
+                transition: 1s;
+                position: relative;
+                width: 60%;
+                border: none;
+                border-radius: unset;
+                padding-top: 20px;
+                border-bottom: 1px solid black;
+                padding-left: 0;
+            
+                &:focus {
+                    box-shadow: none;
+                    border: 1px solid black;
+                }
+                &:focus-visible {
+                    border: none!important;
+                    border-bottom: 1px solid black!important;
+            
+                }
+               
+            }
+            .btn-promotion{
+                padding: 4px 12px;
+                border-radius: 28px;
+            }
+            .span-promotion{
+                position: absolute;
+                transition: 0.4s;
+                top:40%;
+                left: 0;
+                pointer-events: none;
+            
+                
+            }
+        }
+    }
+    .price-no-promotion,.price-promotion{
+        display: flex;
+        justify-content: space-between;
+    }
+    .booking{
+        display: flex;
+        justify-content: flex-end;
+        .btn-booking{
+            background-color: #e4002b;
+            border: none;
+            outline: none;
+            color: #fff;
+            width: 170px;
+            cursor: pointer;
+            font-weight: 700;
+            font-size: 15px;
+            border-radius: 25px;
+            padding:12px 24px;
+        }
+    }
+   
+}
+.input-promotion-focused{
+    + span{
+        transform: translate(-12px,-18px) scale(0.8);
+    }
+}
+
+
+

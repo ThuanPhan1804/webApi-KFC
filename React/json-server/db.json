@@ -1,0 +1,115 @@
+{
+  "promotion":[
+    {
+      "id":1,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":2,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":3,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":4,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":5,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":6,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":7,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":8,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    }
+  ],
+  "newProduct":[
+    {
+      "id":1,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":2,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":3,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    },
+    {
+      "id":4,
+      "name":"Gà địa trung hải",
+      "description":"2 miếng gà giòn, 1 coca, 1 khoai tây nghiền",
+      "image":"combo-han-hoan.jpg",
+      "price":20000,
+      "productType" : "promotion",
+      "status":1
+    }
+  ]
+  
+}

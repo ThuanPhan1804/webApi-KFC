@@ -1,0 +1,17 @@
+.card-classification {
+  width: 263px;
+  margin: 12px 8px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+.card-classification .card-img img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 8px 8px 0 0;
+  width: 100%;
+}
+.card-classification .card-body h3 {
+  padding: 12px 0px 12px 12px;
+}/*# sourceMappingURL=CardClassification.css.map */

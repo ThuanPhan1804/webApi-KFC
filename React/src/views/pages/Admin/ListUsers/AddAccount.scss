@@ -1,0 +1,35 @@
+.add-account {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+
+  .add-account-right {
+    min-width: 352px;
+    .row-form-add-account {
+      display: block !important;
+    }
+    margin-left: 60px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    height: min-content;
+    width: 40%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    .card-title,
+    .card-price {
+      h5 {
+        font-size: 28px;
+        word-wrap: break-word;
+      }
+    }
+    .btn {
+      width: 100%;
+      padding: 12px 24px;
+      background-color: #e4002b;
+      border: none;
+    }
+  }
+}
+.watch-comment {
+  background-color: #e4002b !important;
+}

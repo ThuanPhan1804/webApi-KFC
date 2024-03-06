@@ -1,0 +1,27 @@
+.invoice-navigate{
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid gray ;
+    margin-bottom: 40px;
+    .span-invoice{
+        padding: 12px 24px;
+        min-width: 200px;
+        display: flex;
+        justify-content: center;
+        cursor: pointer;
+        h1{
+            font-size: 24px;
+        }
+        &:hover{
+            background-color: rgb(255, 158, 158);
+            color: #fff;
+        }
+    }
+}
+.invoice{
+    min-height: 680px;
+}
+.active-tab{
+    background-color: rgb(255, 158, 158);
+            color: #fff;
+}

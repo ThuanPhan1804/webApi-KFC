@@ -1,0 +1,19 @@
+.modal-body{
+    p,.address-order,.phone-order{
+        font-size: 18px;
+    }
+   
+   
+}
+.modal-footer{
+    .btn{
+        background-color:#e4002b;
+        border: none;
+         padding: 12px 24px;
+         border-radius: 24px;
+        &:active{
+        background-color:#e4002b!important;
+
+        }
+    }
+}

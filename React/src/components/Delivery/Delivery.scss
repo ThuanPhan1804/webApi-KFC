@@ -1,0 +1,53 @@
+.gradient-custom {
+    background: -webkit-linear-gradient(left, #f44d6e, #f11a1a);
+    max-width: 100%!important;
+    height: 600px!important;
+    display: flex!important;
+        align-items: center;
+        justify-content: center;
+    .row-delivery{
+        display: flex!important;
+        align-items: center;
+    }
+    .card-custom {
+        border-bottom-left-radius: 10% 50%;
+        border-top-left-radius: 10% 50%;
+        background-color: #f8f9fa ;
+        }
+        
+        .row-input{
+            grid-template-columns: 1fr 1fr!important;
+        }
+        .input-custom {
+        background-color: white ;
+        }
+        
+        .white-text {
+        color: hsl(52, 0%, 98%);
+        font-weight: 100 ;
+        font-size: 14px;
+        }
+        
+        .back-button {
+            background-color: #fafafa;
+            margin-top: 20px;
+            border: 0;
+            color: #333;
+            padding: 12px 24px;
+            border-radius: 24px;
+            &:active{
+                background-color: #959494;
+            }
+        }
+        .btn-confirm{
+            background-color: #f11a1a;
+            border: 0;
+            padding: 12px 24px;
+            border-radius: 24px;
+            &:active{
+                background-color: #9e0202;
+            }
+        }
+    }
+    
+   

@@ -1,0 +1,60 @@
+.row-classification {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr !important;
+}
+
+.card-classification {
+  width: 95%;
+}
+.card-classification h2 {
+  margin-left: 6px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: relative;
+  font-weight: bold;
+  position: relative;
+}
+.card-classification h2 span {
+  background-color: #ffffff;
+  padding: 8px;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .row-classification {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+  .row-classification .card-classification {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .row-classification {
+    display: grid;
+    grid-template-columns: 1fr 1fr !important;
+  }
+  .row-classification .card-classification {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .row-classification {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+  .row-classification .card-classification {
+    display: flex !important;
+    width: 100%;
+  }
+  .row-classification .card-classification .card-img {
+    width: 40%;
+  }
+  .row-classification .card-classification .card-img img {
+    width: 100%;
+    border-radius: 8px 0 0 8px;
+  }
+  .row-classification .card-classification .card-body {
+    padding: 4px 80px 4px 4px;
+  }
+}/*# sourceMappingURL=ListCardClassification.css.map */

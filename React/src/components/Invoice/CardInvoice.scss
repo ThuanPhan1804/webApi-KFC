@@ -1,0 +1,29 @@
+.card-invoice{
+    margin-bottom: 12px;
+    width: 95%;
+    padding: 12px;
+    width: 48%;
+    min-height: 200px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #e8e8e8;
+    .code{
+        font-weight: bold;
+        font-size: 18px;    
+        margin-top: 12px;
+    }
+    .card-invoice-right{
+        display: flex;
+        align-items: flex-end;
+    }
+    .status-invoice{
+        text-wrap: nowrap;
+        color:#fff;
+        border-radius: 8px;
+        user-select: none;
+        padding: 12px 24px;
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,97 @@
+.div-modal {
+  display: block;
+}
+.edit-account {
+  margin: 20px 80px;
+  display: flex;
+  justify-content: center;
+  min-height: 300px;
+  margin-top: 100px;
+  .edit-account-right {
+    .heading-account {
+      display: flex;
+    }
+    .btn-close-modal {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      padding: 4px 12px;
+      border-radius: 8px;
+      background-color: rgb(132, 131, 131);
+      transition: 0.2s;
+      .fa-xmark {
+        color: #202020;
+      }
+      &:active {
+        background-color: rgb(37, 33, 33);
+        .fa-xmark {
+          color: #fff;
+        }
+      }
+    }
+    .form-label {
+      user-select: none;
+      pointer-events: none;
+    }
+    background-color: #fff;
+
+    min-width: 352px;
+    .edit-form-account-left {
+      // display: none;
+      display: none;
+    }
+    .row-form-edit-account {
+      display: block !important;
+    }
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    height: min-content;
+    width: 40%;
+    padding: 12px 16px;
+    border-radius: 8px;
+    .card-title,
+    .card-price {
+      h5 {
+        font-size: 28px;
+        word-wrap: break-word;
+      }
+    }
+    .btn {
+      width: 100%;
+      padding: 12px 24px;
+      border: none;
+    }
+  }
+}
+.watch-comment {
+  background-color: #e4002b !important;
+}
+
+//    @media screen and (max-width:992px) {
+//     .edit-account{
+//         .edit-account-left{
+//             display: none!important;
+//         }
+//             .edit-account-right{
+//                 width: 100%;
+//                 .row-form-add-account{
+//                     display: flex!important;
+//                     .edit-form-account-left{
+//                         // display: none;
+//                         max-height: 135px;
+
+//                         display: flex!important;
+//                     }
+//                 }
+//                 .col-left{
+//                     width: 40%;
+//                     img{
+//                         width: 100%;
+//                     }
+//                 }
+//                 .col-right{
+//                 width: 60%;
+//                 }
+//             }
+//     }
+
+// }

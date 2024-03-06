@@ -1,0 +1,106 @@
+.form-login-account{
+    padding: 32px 26px;
+    display: grid;
+    gap:12px;
+    h1{
+        font-size: 32px;
+    }
+    .div-input-username,.div-input-password{
+        position: relative;
+    }
+    .input-username,.input-password{
+        position: relative;
+        border: none;
+        border-radius: unset;
+        padding-top: 20px;
+        border-bottom: 1px solid black;
+        padding-left: 0;
+
+        &:focus {
+            box-shadow: none;
+        }
+        
+    }
+        .icon-eyes{
+            position: absolute;
+            right: 8px;
+            cursor: pointer;
+            top:calc(50% + 4px)
+        }
+    span{
+        position: absolute;
+        transition: 0.5s;
+        top:calc(50% - 5px);
+        left: 0;
+        pointer-events: none;
+
+        .label-password,.label-username{
+            font-size: 1rem;
+            cursor:text;
+            // opacity: 0.7;
+            user-select: none;
+        }
+    }
+    .error-message-username{
+        width: 100%;
+        p{
+            display: flex;
+            position: absolute;
+            bottom: calc(-50% - 74px);
+            color:red;
+            width: 100%;
+            flex-wrap: nowrap;
+        }
+    }
+    .btn-submit{
+        background-color: #e2002b;
+        display: flex;
+        justify-content: center;
+        font-weight: bold;
+        color: #ffffff;
+        cursor: pointer;
+        &:hover {
+            background-color: #a00421;
+        }
+    }
+    .btn-submit-google{
+        background-color: #131416;
+        display: flex;
+        justify-content: center;
+        text-wrap: nowrap;
+        p{
+            padding-left: 0.4em;
+            margin: 0;
+        }
+        &:active {
+            background-color: #131416;
+        }
+        
+    }
+    .forgot-password{
+        display:  flex;
+        justify-content: flex-end;
+    }
+    .btn-submit,.btn-submit-google{
+        border: none;
+        outline: none;
+        transition: 0.5s;
+        padding:12px 0;
+        border-radius: 24px;
+        
+    }
+
+}
+.input-focused{
+   + .span-username{
+        transform: translate(-12px,-24px) scale(0.8);
+    }
+}
+.input-focused{
+    + .span-password{
+        transform: translate(-6px,-24px) scale(0.8);
+    }
+}
+input:seleced{
+
+}

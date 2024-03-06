@@ -1,0 +1,23 @@
+.cart{
+    display: flex;
+    .cart-left{
+        width: 70%;
+    }
+    .cart-right{
+        width: 30%;
+    }
+}
+.modal-pay{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    .modal.show{
+        position: fixed!important;
+        top:50%;
+    }
+}
